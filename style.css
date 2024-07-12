@@ -1,0 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cell {
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
